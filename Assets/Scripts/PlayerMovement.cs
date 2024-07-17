@@ -35,6 +35,9 @@ public class PlayerMovement : MonoBehaviour
         grounded=false;
     }
     private void OnCollisionEnter2D(Collision2D collision) {
-        if(collision.gameObject.tag == "ground") grounded = true;
+        if(collision.gameObject.tag == "ground")  {
+        grounded = true;
+        body.velocity = new Vector2(body.velocity.x,0);
+        }
     }
 }
