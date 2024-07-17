@@ -39,5 +39,9 @@ public class PlayerMovement : MonoBehaviour
         grounded = true;
         body.velocity = new Vector2(body.velocity.x,0);
         }
+        if(collision.gameObject.tag == "bugus") {
+            Death.alpha = 255;
+            gameObject.SetActive(false);
+        }
     }
 }

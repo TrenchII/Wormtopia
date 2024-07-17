@@ -3,15 +3,17 @@ using UnityEngine;
 
 public class Death : MonoBehaviour
 {
+    public static float alpha;
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.SetActive(false);
+        alpha = 0;
+        gameObject.GetComponent<CanvasRenderer>().SetAlpha(alpha);
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        gameObject.SetActive(true);
+        gameObject.GetComponent<CanvasRenderer>().SetAlpha(alpha);
     }
 }
