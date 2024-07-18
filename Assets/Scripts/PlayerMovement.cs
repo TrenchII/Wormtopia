@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
     private bool grounded;
+    private bool side;
     private void Awake() {
         //Grab reference for rigidbody and animator from object
         body = GetComponent<Rigidbody2D>();
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
         if(horizontalInput > 0.01f) transform.localScale = new Vector3(1,1,1);
         else if (horizontalInput < -0.01f) transform.localScale = new Vector3(-1,1,1);
         //Allow character to jump
-        if(Input.GetKey(KeyCode.Space) && grounded) {
+        if(Input.GetKey(KeyCode.Space) && grounded && !side) {
             Jump();
         }
         //Set animator parameters
@@ -38,10 +39,15 @@ public class PlayerMovement : MonoBehaviour
         if(collision.gameObject.tag == "ground")  {
         grounded = true;
         body.velocity = new Vector2(body.velocity.x,0);
+        side = false;
         }
         if(collision.gameObject.tag == "bugus") {
             Death.dead = true;
             gameObject.SetActive(false);
+        }
+        if(collision.gameObject.tag == "side") {
+            side = true;
+            grounded = false;
         }
     }
 }
