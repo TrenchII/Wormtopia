@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = new Vector2(body.velocity.x,0);
         }
         if(collision.gameObject.tag == "bugus") {
-            Death.alpha = 255;
+            Death.dead = true;
             gameObject.SetActive(false);
         }
     }
