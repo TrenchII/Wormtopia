@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fb36ecadd78505d468fc3948f92bccd6
+guid: ba1f83844185fcb44abcf4f595ab18fb
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638568701788636628
+  platformSettingsDirtyTick: 638568698632866452
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,7 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: blocker trasheap
+  - name: groundinneredge
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -130,9 +130,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 64
-      height: 64
-    spriteID: 87b2e3b53dabdc143a9da86b2a311f73
+      width: 32
+      height: 32
+    spriteID: 21cc31a70d175ff4b85e8c03b95288cf
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,21 +144,21 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -77081148
-    name: blocker trasheap
+    guid: -1022936518
+    name: groundinneredge
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: blocker trasheap
+    - name: groundinneredge
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 64
-        height: 64
-      spriteId: 87b2e3b53dabdc143a9da86b2a311f73
+        width: 32
+        height: 32
+      spriteId: 21cc31a70d175ff4b85e8c03b95288cf
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -201,4 +201,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 64}
+  canvasSize: {x: 32, y: 32}

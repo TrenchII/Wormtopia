@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: '[Jump]'
+  m_Name: CloudIdle
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,17 +21,15 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 6285321708567139727, guid: 027c524dde9911843952db0da4b8dea6, type: 3}
-    - time: 0.049999982
-      value: {fileID: 1615757478586324932, guid: 027c524dde9911843952db0da4b8dea6, type: 3}
-    - time: 0.15
-      value: {fileID: 2618827518292865676, guid: 027c524dde9911843952db0da4b8dea6, type: 3}
-    - time: 0.24999997
-      value: {fileID: -9163446900818471366, guid: 027c524dde9911843952db0da4b8dea6, type: 3}
-    - time: 0.35
-      value: {fileID: -3764176467931734387, guid: 027c524dde9911843952db0da4b8dea6, type: 3}
+      value: {fileID: 7042450982014086282, guid: 42e234b3cddcb3948afe911d20a95646, type: 3}
+    - time: 0.1
+      value: {fileID: 741200924310303190, guid: 42e234b3cddcb3948afe911d20a95646, type: 3}
+    - time: 0.2
+      value: {fileID: -5477986607508615711, guid: 42e234b3cddcb3948afe911d20a95646, type: 3}
+    - time: 0.3
+      value: {fileID: -3732473809230437659, guid: 42e234b3cddcb3948afe911d20a95646, type: 3}
     - time: 0.39000002
-      value: {fileID: -3764176467931734387, guid: 027c524dde9911843952db0da4b8dea6, type: 3}
+      value: {fileID: -3732473809230437659, guid: 42e234b3cddcb3948afe911d20a95646, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212

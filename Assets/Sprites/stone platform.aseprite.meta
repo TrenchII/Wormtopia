@@ -2,7 +2,22 @@ fileFormatVersion: 2
 guid: 42e234b3cddcb3948afe911d20a95646
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: CloudIdle
+    second: {fileID: 7400000, guid: 46620f4ab0c184c4b8a7e11d62c5519e, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Dissapear
+    second: {fileID: 7400000, guid: 5e98311037cb6c74d80ee868972a4675, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: 63e0c9849b799484bb1aa17251c8e2b9, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -97,7 +112,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638568761364808915
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,15 +138,15 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: stone platform
     originalName: 
-    pivot: {x: 0.5185185, y: -0.90000004}
+    pivot: {x: 0.46428573, y: -0.72727275}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
-      width: 27
-      height: 10
+      x: 42
+      y: 38
+      width: 28
+      height: 11
     spriteID: bbe36ab364a98d443969b711ca429d89
     spriteBone: []
     spriteOutline: []
@@ -140,7 +155,167 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
+    uvTransform: {x: 42, y: 38}
+  - name: stone platform_Frame_1
+    originalName: 
+    pivot: {x: 0.46428573, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 38
+      width: 28
+      height: 11
+    spriteID: 6c8fa15242ebfd24b9615680fefd3374
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 38}
+  - name: stone platform_Frame_2
+    originalName: 
+    pivot: {x: 0.46428573, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 60
+      width: 28
+      height: 11
+    spriteID: 5d4025e6a09f67e4b8c7f3deadfa4254
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 60}
+  - name: stone platform_Frame_3
+    originalName: 
+    pivot: {x: 0.46428573, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 60
+      width: 28
+      height: 11
+    spriteID: dbe8bf6d6a7bece43946fd8c5629c689
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 40, y: 60}
+  - name: stone platform_Frame_4
+    originalName: 
+    pivot: {x: 0.46428573, y: -0.72727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 76
+      y: 60
+      width: 28
+      height: 11
+    spriteID: 9e44e637df09eda46b65de1cc65468ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 76, y: 60}
+  - name: stone platform_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 38
+      width: 30
+      height: 14
+    spriteID: 618ad01bbe53b944e8d6ed731b6dc40a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 38}
+  - name: stone platform_Frame_6
+    originalName: 
+    pivot: {x: 0.516129, y: -0.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 4
+      width: 31
+      height: 17
+    spriteID: c9e2cb8c570a4fb46930bba5e40cf5d7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 4}
+  - name: stone platform_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -0.11538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 30
+      height: 26
+    spriteID: d92e963e94bfbd349ab9c9d9f00d34eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
+  - name: stone platform_Frame_8
+    originalName: 
+    pivot: {x: 0.4814815, y: -0.21739131}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 27
+      height: 23
+    spriteID: 3d27dd6683c84ad4d86466cd17a8fff7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -150,18 +325,126 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: stone platform
+    - name: stone platform_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 2
-        y: 9
-        width: 27
-        height: 10
+        x: 3
+        y: 8
+        width: 28
+        height: 11
       spriteId: bbe36ab364a98d443969b711ca429d89
+    - name: stone platform_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 8
+        width: 28
+        height: 11
+      spriteId: 6c8fa15242ebfd24b9615680fefd3374
+    - name: stone platform_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 8
+        width: 28
+        height: 11
+      spriteId: 5d4025e6a09f67e4b8c7f3deadfa4254
+    - name: stone platform_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 8
+        width: 28
+        height: 11
+      spriteId: dbe8bf6d6a7bece43946fd8c5629c689
+    - name: stone platform_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 8
+        width: 28
+        height: 11
+      spriteId: 9e44e637df09eda46b65de1cc65468ab
+    - name: stone platform_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 7
+        width: 30
+        height: 14
+      spriteId: 618ad01bbe53b944e8d6ed731b6dc40a
+    - name: stone platform_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 0
+        y: 7
+        width: 31
+        height: 17
+      spriteId: c9e2cb8c570a4fb46930bba5e40cf5d7
+    - name: stone platform_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 1
+        y: 3
+        width: 30
+        height: 26
+      spriteId: d92e963e94bfbd349ab9c9d9f00d34eb
+    - name: stone platform_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 5
+        width: 27
+        height: 23
+      spriteId: 3d27dd6683c84ad4d86466cd17a8fff7
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
