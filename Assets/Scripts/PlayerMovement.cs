@@ -4,6 +4,7 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] public float speed;
     [SerializeField] public float jheight;
+    [SerializeField] public GameObject splash;
     private Rigidbody2D body;
     private Animator anim;
     private bool grounded;
@@ -41,9 +42,14 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = new Vector2(body.velocity.x,0);
         side = false;
         }
-        if(collision.gameObject.tag == "bugus") {
-            Death.dead = true;
+        if(collision.gameObject.tag == "bugus" || collision.gameObject.tag == "water") {
             gameObject.SetActive(false);
+            if (collision.gameObject.tag == "water") {
+                GameObject splashObj = Instantiate(splash,body.position,Quaternion.identity);
+                Animator splashanim = splashObj.GetComponent<Animator>();
+                splashanim.SetBool("water",true);
+            }
+            Death.dead = true;
         }
         if(collision.gameObject.tag == "side") {
             side = true;
